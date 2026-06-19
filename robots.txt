@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://an100690.github.io/homeleyu-com-cn/sitemap.xml
