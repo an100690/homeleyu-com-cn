@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在安静里看球 · 足球直播简明指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(145deg, #fbe9e0 0%, #f5d9cf 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2.4rem 1.2rem;
+            line-height: 1.7;
+            color: #2d2a27;
+        }
+
+        .card {
+            max-width: 860px;
+            width: 100%;
+            background: #fffcf9;
+            border-radius: 2.8rem;
+            box-shadow: 0 20px 40px -12px rgba(140, 80, 50, 0.25), 0 6px 18px rgba(180, 120, 80, 0.08);
+            padding: 3rem 2.8rem;
+            transition: box-shadow 0.25s ease;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 2rem 1.6rem;
+                border-radius: 2rem;
+            }
+        }
+
+        .hero-tag {
+            font-size: 0.85rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #b2866b;
+            background: #f2e3db;
+            display: inline-block;
+            padding: 0.3rem 1.1rem;
+            border-radius: 40px;
+            margin-bottom: 1.6rem;
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 620;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #3e2e27;
+            margin-bottom: 0.6rem;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .lead {
+            font-size: 1.15rem;
+            color: #5f4b40;
+            background: #fbf3ee;
+            padding: 1.2rem 1.6rem;
+            border-radius: 1.8rem;
+            margin: 1.8rem 0 2rem;
+            border-left: 5px solid #dbb6a2;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.02rem;
+            color: #3d3530;
+        }
+
+        p.quote-hint {
+            background: #f5e7df;
+            padding: 1.2rem 1.8rem;
+            border-radius: 1.6rem;
+            font-style: normal;
+            font-weight: 450;
+            border-left: 5px solid #c8a28b;
+            margin: 1.8rem 0;
+            color: #3e2d24;
+            font-size: 1rem;
+        }
+
+        .highlight-link {
+            display: inline-block;
+            background: #e6cbbc;
+            color: #2f241e;
+            font-weight: 540;
+            padding: 0.1rem 0.8rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background 0.2s, transform 0.1s;
+            border-bottom: 2px solid transparent;
+        }
+
+        .highlight-link:hover {
+            background: #dbb6a2;
+            transform: scale(1.02);
+            border-bottom-color: #a67a62;
+        }
+
+        .btn-soft-link {
+            display: inline-block;
+            background: #f2ded2;
+            color: #2f241e;
+            font-weight: 540;
+            padding: 0.45rem 1.4rem;
+            border-radius: 40px;
+            text-decoration: none;
+            transition: background 0.2s, box-shadow 0.15s;
+            border: 1px solid #ddc1b2;
+            box-shadow: 0 2px 6px rgba(160, 100, 70, 0.08);
+        }
+
+        .btn-soft-link:hover {
+            background: #e7cbbc;
+            box-shadow: 0 4px 10px rgba(140, 80, 50, 0.12);
+            border-color: #c9a692;
+        }
+
+        .faq-mini {
+            margin-top: 2.4rem;
+            border-top: 2px dashed #e1cdc1;
+            padding-top: 1.8rem;
+        }
+
+        .faq-mini h3 {
+            font-size: 1.2rem;
+            font-weight: 540;
+            margin-bottom: 1rem;
+            color: #4a3830;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+
+        .faq-item strong {
+            color: #5a4034;
+            font-weight: 550;
+            display: block;
+            margin-bottom: 0.15rem;
+        }
+
+        .signature {
+            margin-top: 2.6rem;
+            text-align: right;
+            color: #8a7164;
+            font-size: 0.95rem;
+            border-top: 1px solid #ebdbd1;
+            padding-top: 1.8rem;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            text-align: center;
+            color: #8f7b70;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="hero-tag">⚽ 简明指南 · 流畅体验</div>
+
+        <h1>周末看球，打开方式比想象中简单</h1>
+
+        <div class="lead">
+            如果你想用更清爽的方式关注五大联赛、欧冠或亚洲赛事，不用反复切换平台。这篇短文就是一份安静的访问备忘——不绕弯，不讲大道理。
+        </div>
+
+        <p>
+            对于很多球迷来说，最踏实的看球方式往往是直接找到一个可靠的方向。不管是下班后赶上后半夜的焦点战，还是周末下午一边喝茶一边看积分榜变化，那种“点开就能看”的干脆感，比任何花哨功能都重要。<a href="https://pptv-football.com" class="highlight-link">足球直播</a> 这个链接或许你已经见过，但它恰好帮你省掉一层又一层跳转——页面干净，指向清晰，适合那种“我就想安安静静看场球”的心情。
+        </p>
+
+        <p>
+            过去几年直播平台越来越多，但有时候我们反而被选择困住了。这个站点的逻辑很直接：不堆砌弹窗、不要求注册、不强行推送无关内容。打开之后，赛程列表就在那里，你挑一场，点进去，剩下的就是画面和声音。对于习惯直接观看的用户来说，这样的体验像是回到了最早网上看球时的利落感。
+        </p>
+
+        <div class="quote-hint">
+            🗣️ 一位常在社区聊球的朋友说过：“最好的直播页面就是让我最快看到球，而不是先看三分钟广告。” 这句话一直提醒着我把简洁当作第一原则。
+        </div>
+
+        <p>
+            如果你经常在深夜找比赛，可能会注意到很多页面为了流量把界面塞得很拥挤。但这里不同，字体大小舒适，深色模式也跟眼，不需要在设置里翻半天。而且它覆盖的联赛比较全——英超、西甲、意甲、德甲、法甲，以及欧冠和欧联，还包括一些亚洲和南美的重要场次。基本上，你关注的焦点赛事都能找到对应的直播入口。
+        </p>
+
+        <p>
+            另外有一个小提醒：比赛开始前五分钟打开页面，往往能避开流量高峰时的缓冲。如果你用的是移动网络，建议提前连上 Wi-Fi 或确保信号稳定。还有，部分浏览器如果开启了“严格拦截”可能会影响播放，可以试试切换到标准模式或者允许该站点的媒体自动播放。这些细节虽然琐碎，但提前处理好会让体验顺滑很多。
+        </p>
+
+        <p>
+            最后想说的是，看球这件事，有时候平台只是配角，比赛本身才是主角。所以与其花时间比较哪个 App 更好看，不如直接选择一个简单靠谱的地方坐下来。<a href="https://pptv-football.com" class="btn-soft-link">足球直播</a> 一直保持低调更新，赛程和线路都有人维护，你只需要带上对比赛的热情就好。
+        </p>
+
+        <div class="faq-mini">
+            <h3>📌 几个你可能会关心的小问题</h3>
+
+            <div class="faq-item">
+                <strong>需要安装软件或插件吗？</strong>
+                <span>不需要。浏览器直接打开，和普通网页一样，无需下载任何额外程序。</span>
+            </div>
+            <div class="faq-item">
+                <strong>比赛回放能看吗？</strong>
+                <span>主要提供直播，部分热门赛事结束后会有回放片段，建议直播时观看体验最佳。</span>
+            </div>
+            <div class="faq-item">
+                <strong>遇到卡顿怎么办？</strong>
+                <span>先检查自己的网络，然后尝试刷新页面或切换线路（如有提供）。偶尔也可以换一个浏览器试试。</span>
+            </div>
+        </div>
+
+        <div class="signature">
+            —— 一场好球，胜过千言万语。
+        </div>
+
+        <div class="footer-note">
+            <span>⚡ 随时回来 · <a href="https://pptv-football.com" style="color:#6e5343; text-decoration:underline; text-underline-offset:4px;">足球直播</a> ⚡</span>
+        </div>
+
+    </div>
+</body>
+</html>
